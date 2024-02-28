@@ -1,0 +1,8 @@
+---
+- name: Hello Acme
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Show it works
+      debug:
+        msg: 'This is ACME, Inc content'
