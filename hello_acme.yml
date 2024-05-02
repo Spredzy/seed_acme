@@ -5,4 +5,4 @@
   tasks:
     - name: Show it works
       debug:
-        msg: 'This is ACME, Inc content {{ ee_registry_username | default("Test") }} - {{ ee_registry_token | default("") }}'
+        msg: 'This is ACME, Inc content {{ ee_registry_username | default("Test") }} - {{ ee_registry_password | default("") }}'
